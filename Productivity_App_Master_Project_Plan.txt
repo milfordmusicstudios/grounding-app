@@ -1,0 +1,152 @@
+PRODUCTIVITY APP — MASTER PROJECT PLAN
+(Phase 0 locked · Phase 1 complete · Ready for Phase 2)
+
+==================================================
+1. CORE PHILOSOPHY (LOCKED)
+==================================================
+- Grounding, not pushing
+- Progress without guilt
+- Planning ≠ obligation
+- Awareness ≠ optimization
+- Consent before activation
+- Completion → renewal (no endless grind)
+- Trust over dopamine
+- No urgency language
+- No shame, no streak punishment
+- App supports life; does not demand performance
+
+==================================================
+2. CORE OBJECT MODEL (LOCKED)
+==================================================
+
+BRAIN DUMP
+- Free-form capture
+- Never interrupted
+- No categorization at entry
+- Nothing auto-commits
+- No XP
+
+DRAFT ITEMS / CLARIFICATION QUEUE
+- Triggered when required info is missing
+- Default: one item at a time (optional batch)
+- System may suggest: category, type, schedule, difficulty (tasks only)
+- User actions: Confirm / Set Aside / Delete
+- No XP, no urgency, no counts shown
+
+TASKS
+- Require effort
+- Scheduled or unscheduled
+- Events = tasks with fixed date/time
+- Difficulty: Easy / Medium / Hard (default Easy)
+- XP earned only on completion
+
+HABITS
+- Repeating actions
+- Require setup (frequency, skip behavior)
+- Static XP per check-in
+- No streak pressure
+- Missed habits default to skip & move on
+
+PROJECTS
+- Group of tasks (minimum 3)
+- Completion grants bonus XP or badge
+- Started projects may be set aside
+- Unstarted projects may be deleted
+
+LOGS (AWARENESS ONLY)
+- Factual records (food, mood, notes, cycle, etc.)
+- No XP
+- Never nag
+- Never surface automatically
+- Visible only when intentionally viewed or during reviews
+- User-defined presets for log types
+
+GOALS (MANTRAS / ASPIRATIONS)
+- Identity statements, not targets
+- Optional reflections, timeframe, and links
+- XP never appears in goal views
+- Goals revisited only during reviews
+
+==================================================
+3. XP & REWARDS SYSTEM (LOCKED)
+==================================================
+- XP earned only from task completion and habit check-ins
+- No XP for logs, reflections, planning, meals, or groceries
+- XP feeds: global lifetime level + category progression
+- Visual-only XP (bars/percentages, no numbers)
+- Gentle curve, no level cap
+
+BADGES
+- Category badges (XP-driven, evolving, lifetime)
+- Identity / event badges (no XP)
+- Only current evolved form displayed
+- Known badges show as silhouettes
+- Evolution triggers brief celebration
+
+==================================================
+4. CHAPTERS & SEASONS (LOCKED)
+==================================================
+- Chapters = monthly
+- Seasons = quarterly (3 chapters)
+- Global level never resets
+- Chapter levels reset monthly
+- Season 1 focus: participation, consistency, showing up
+
+==================================================
+5. HOME & DAILY RULES (LOCKED)
+==================================================
+
+HOME
+- Grounding, never pushy
+- Today snapshot, quick wins, one progress signal
+- Meals only if planned for today
+- Tier-2 nudges only
+- Rare relief modal allowed
+
+DAILY
+- Unified task list only
+- No popups, nudges, or log prompts
+- Interruption-free
+
+==================================================
+6. NUDGES SYSTEM (LOCKED)
+==================================================
+Tier 1: Badge evolution, chapter completion, season completion, relief
+Tier 2: Recaps, reflections, suggestions (embedded)
+Tier 3: Passive indicators
+
+==================================================
+7. MEALS & GROCERIES (LOCKED)
+==================================================
+MEALS
+- Planning surface, not tasks
+- Single-day entries
+- Optional toggle to create cooking task (default OFF)
+
+GROCERIES
+- Stand-alone list
+- Items are not tasks
+- Auto-clear checked items daily
+- Shopping task is user-created only
+
+==================================================
+8. DESIGN & UX GUARDRAILS (LOCKED)
+==================================================
+- One emphasis per surface
+- No stacked decisions
+- Stability > stimulation
+- Animations only for meaning
+
+==================================================
+9. BUILD PHASE STATUS
+==================================================
+Phase 0 — Concept Locking: COMPLETE
+Phase 1 — Technical Skeleton: COMPLETE
+Phase 2 — Core Flows: NOT STARTED
+Phase 3 — Awareness Layers: NOT STARTED
+
+==================================================
+10. NEXT STEP
+==================================================
+Complete Phase 2: Core Flows
+(No new concepts. No rule changes. UI + wiring only.)
