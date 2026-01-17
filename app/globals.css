@@ -24,3 +24,230 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ========= Grounding Theme (cream/oat/clay journal) ========= */
+:root {
+  --bg: #f6f1e8;          /* cream/oat */
+  --panel: #fbf7f0;       /* paper */
+  --text: #2a241c;        /* soft ink */
+  --muted: #6f665b;       /* pencil */
+  --border: rgba(42, 36, 28, 0.10); /* pencil-light line */
+
+  --radius: 16px;
+  --shadow: 0 1px 2px rgba(42, 36, 28, 0.06);
+
+  --accent: #b58a6a;      /* clay */
+  --accentSoft: rgba(181, 138, 106, 0.18);
+
+  --navBg: rgba(246, 241, 232, 0.80);
+}
+
+/* subtle linen texture */
+body {
+  background: var(--bg);
+  color: var(--text);
+  background-image:
+    radial-gradient(rgba(42,36,28,0.035) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* overall typography */
+body, input, button {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+h1, h2, h3 {
+  font-weight: 560;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+h1 { font-size: 26px; margin: 0 0 6px; }
+h2 { font-size: 18px; margin: 18px 0 8px; }
+
+p { color: var(--muted); }
+
+/* layout */
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 18px 16px 88px; /* extra bottom for bottom nav later */
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px;
+}
+
+/* thin dividers */
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 12px 0;
+}
+
+/* inputs: lined / underlined, journal-style */
+.inputLine {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px 2px;
+  font-size: 16px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+.inputLine::placeholder {
+  color: rgba(111, 102, 91, 0.7);
+}
+
+/* buttons: soft rectangles */
+.softButton {
+  border: 1px solid var(--border);
+  background: rgba(251, 247, 240, 0.7);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.softButton:hover {
+  background: rgba(251, 247, 240, 1);
+  border-color: rgba(42, 36, 28, 0.16);
+}
+
+/* checkbox feel */
+.check {
+  width: 18px;
+  height: 18px;
+  accent-color: rgba(181, 138, 106, 0.7);
+}
+/* bottom navigation */
+.bottomNav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--navBg);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--border);
+  padding: 10px 10px 12px;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+}
+
+.bottomNavItem {
+  flex: 1;
+  text-decoration: none;
+  color: var(--muted);
+  border: 1px solid transparent;
+  border-radius: 14px;
+  padding: 8px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.bottomNavItem:hover {
+  color: var(--text);
+  background: rgba(251, 247, 240, 0.7);
+  border-color: var(--border);
+}
+
+.bottomNavIcon {
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.9;
+}
+
+.bottomNavLabel {
+  font-size: 11px;
+}
+/* ===============================
+   THEME: Ink & Slate
+   Calm dark / high-contrast
+   =============================== */
+
+body.theme-ink {
+  --bg: #121417;            /* deep slate */
+  --panel: #1b1f24;         /* card surface */
+  --text: #e6e8eb;          /* soft white */
+  --muted: #9aa3ad;         /* cool gray */
+  --border: rgba(255,255,255,0.08);
+
+  --accent: #6fa8dc;        /* calm blue */
+  --accentSoft: rgba(111,168,220,0.18);
+
+  --navBg: rgba(18,20,23,0.88);
+  --shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+/* background */
+body.theme-ink {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* cards */
+body.theme-ink .card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+/* text */
+body.theme-ink h1,
+body.theme-ink h2,
+body.theme-ink h3 {
+  color: var(--text);
+}
+
+body.theme-ink p {
+  color: var(--muted);
+}
+
+/* inputs */
+body.theme-ink .inputLine {
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+
+body.theme-ink .inputLine::placeholder {
+  color: rgba(154,163,173,0.6);
+}
+
+/* buttons */
+body.theme-ink .softButton {
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+body.theme-ink .softButton:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+/* bottom nav */
+body.theme-ink .bottomNav {
+  background: var(--navBg);
+  border-top: 1px solid var(--border);
+}
+
+body.theme-ink .bottomNavItem {
+  color: var(--muted);
+}
+
+body.theme-ink .bottomNavItem:hover {
+  color: var(--text);
+  background: rgba(255,255,255,0.06);
+}
+
+/* checkboxes */
+body.theme-ink .check {
+  accent-color: var(--accent);
+}
